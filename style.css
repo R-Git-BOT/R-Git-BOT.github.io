@@ -1,19 +1,12 @@
 @charset "UTF-8";
 
-html {
-font-size:62.5%;
-}
 body {
-font-size:1.4rem;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 50px 20px;
+    background: #333;
 }
-*, *::before, *::after {
-box-sizing:border-box;
-}
-.clearfix::after {
-content:'';
-display:block;
-clear:both;
-}
+
 
 .btn a {
     width: 150px;
@@ -26,4 +19,15 @@ clear:both;
     border-bottom: 4px solid #666;
     color: #FFF;
     margin: 0 auto;
+}
+
+#btn:hover {
+    background: rgba(0,0,0,0.1);
+    border-color: #fff;
+    color: #fff;
+}
+
+#btn:active {
+    background: #db3452;
+    border-color: #db3452;
 }
