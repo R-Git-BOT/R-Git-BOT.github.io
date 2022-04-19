@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+    
+        <title>WebSampler</title>
+    
+        <script type="module">
+        document.documentElement.classList.remove('no-js');
+        document.documentElement.classList.add('js');
+        </script>
+    
+        <link rel="stylesheet" href="./styles.css">
+    
+        <meta name="description" content="押したら音が鳴るやつ">
+        <meta property="og:title" content="Webサンプラー">
+        <meta property="og:description" content="押したら音が鳴るやつ">
+        <meta property="og:image" content="./image/netorare.jpg">
+        <meta property="og:image:alt" content="画像の説明文">
+        <meta property="og:locale" content="ja_JP">
+        <meta property="og:type" content="website">
+        <meta name="twitter:card" content="summary_large_image">
+
+    </head>
+    <body>
+        <p class="btn"><a onclick="sound()">ほしいにゃ</a></p>
+        <audio id="sound" preload="auto">
+            <source src="./sound/hosiinya.wav" type="audio/wav">
+        </audio>
+        
+        <p class="btn"><a onclick="sound()">ねふちす</a></p>
+        <audio id="sound" preload="auto">
+            <source src="./sound/nepht.wav" type="audio/wav">
+        </audio>
+        
+        <p class="btn"><a onclick="sound()">コウくん</a></p>
+        <audio id="sound" preload="auto">
+            <source src="./sound/koukun.mp3" type="audio/mp3">
+        </audio>
+        
+        <p class="btn"><a onclick="sound()">ねむねむ</a></p>
+        <audio id="sound" preload="auto">
+            <source src="./sound/nemunemu.mp3" type="audio/mp3">
+        </audio>
+        
+    </body>
+</html>
