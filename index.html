@@ -6,13 +6,9 @@
     
         <title>WebSampler</title>
     
-        <script type="module">
-        document.documentElement.classList.remove('no-js');
-        document.documentElement.classList.add('js');
-        </script>
-    
-        <link rel="stylesheet" href="./style.css">
-    
+        <link rel="stylesheet" type="text/css" href="./style.css">
+        <link rel="stylesheet" type="text/css" href="./button.css">
+
         <meta name="description" content="押したら音が鳴るやつ">
         <meta property="og:title" content="Webサンプラー">
         <meta property="og:description" content="押したら音が鳴るやつ">
@@ -22,13 +18,11 @@
         <meta property="og:type" content="website">
         <meta name="twitter:card" content="summary_large_image">
 
+        <link rel="stylesheet" type="text/css" href="button.css">
+</head>
     </head>
     <body>
-
-        <p class="btn"><a onclick="sound()">ほしいにゃ</a></p>
-        <audio id="sound-a" preload="auto">
-            <source src= "sound/hosiinya.wav" type="audio/wav">
-        </audio>
+        <a href="#hoshiinya" class="btnripple">ほしいにゃ</a>
         
         <p class="btn"><a onclick="sound()">ねふちす</a></p>
         <audio id="sound-b" preload="auto">
@@ -45,5 +39,8 @@
             <source src= "sound/nemunemu.mp3" type="audio/mp3">
         </audio>
         
+        <audio id="btnsound" preload="auto">
+            <source src="sound/hosiinya.wav" type="audio/wav">
+        </audio>
     </body>
 </html>
