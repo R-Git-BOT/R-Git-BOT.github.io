@@ -1,4 +1,4 @@
-const se1 = new Audio('sound/hosiinya.wav');
+const se1 = new Audio('./sound/hosiinya.wav');
 
 
 [...document.getElementsByClassName('btnripple')].forEach(bt=>{
