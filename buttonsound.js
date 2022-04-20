@@ -1,4 +1,4 @@
-const se1 = new Audio('./sound/hosiinya.wav');
+const se1 = new Audio('https://github.com/R-Git-BOT/R-Git-BOT.github.io/blob/main/sound/telelen.mp3');
 
 
 [...document.getElementsByClassName('btnripple')].forEach(bt=>{
