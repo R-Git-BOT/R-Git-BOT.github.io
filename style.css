@@ -11,20 +11,9 @@ body {
     line-height: 50px;
     text-align: center;
     display: block;
-    background: #999;
+    background: rgb(141, 247, 255);
     border-radius: 5px;
     border-bottom: 4px solid #666;
-    color: #FFF;
+    color: rgb(36, 36, 36);
     margin: 0 auto;
-}
-
-.btn:hover {
-    background: rgba(0,0,0,0.1);
-    border-color: #fff;
-    color: #fff;
-}
-
-.btn:active {
-    background: #db3452;
-    border-color: #db3452;
 }

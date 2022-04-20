@@ -5,9 +5,6 @@
         <meta name="viewport" content="width=device-width">
     
         <title>WebSampler</title>
-    
-        <link rel="stylesheet" type="text/css" href="./style.css">
-        <link rel="stylesheet" type="text/css" href="./button.css">
 
         <meta name="description" content="押したら音が鳴るやつ">
         <meta property="og:title" content="Webサンプラー">
@@ -17,30 +14,31 @@
         <meta property="og:locale" content="ja_JP">
         <meta property="og:type" content="website">
         <meta name="twitter:card" content="summary_large_image">
-
-        <link rel="stylesheet" type="text/css" href="button.css">
+        
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="btn.css">
+        <script type="text/javascript" src="script.js"></script>
 </head>
-    </head>
     <body>
-        <a href="#hoshiinya" class="btnripple">ほしいにゃ</a>
-        
-        <p class="btn"><a onclick="sound()">ねふちす</a></p>
-        <audio id="sound-b" preload="auto" controls>
-            <source src= "./sound/nepht.wav" type="audio/wav">
-        </audio>
-        
-        <p class="btn"><a onclick="sound()">コウくん</a></p>
-        <audio id="sound-c" preload="auto">
-            <source src= "./sound/koukun.mp3" type="audio/mp3">
-        </audio>
-        
-        <p class="btn"><a onclick="sound()">ねむねむ</a></p>
-        <audio id="sound-d" preload="auto">
-            <source src= "./sound/nemunemu.mp3" type="audio/mp3">
-        </audio>
-        
-        <audio id="btnsound" preload="auto">
-            <source src="sound/hosiinya.wav" type="audio/wav">
-        </audio>
+        <div>
+            <a href="#hosiinya" class="btnripple", id="hosiinya">ほしいにゃ</a>
+        </div>
+        <div>
+            <a href="#koukun" class="btnripple", id="koukun">コウくん</a>
+        </div>
+        <div>
+            <a href="#nemunemu" class="btnripple", id="nemunemu">ねむねむ</a>
+        </div>
+        <div>
+            <a href="#nepth" class="btnripple", id="nepht">ねふちす</a>
+        </div>
+        <div>
+            <a href="#answer" class="btnripple", id="answer">早押し</a>
+        </div>
+        <div>
+            <a href="#pinpon" class="btnripple", id="pinpon">正解</a>
+            <a href="#bubbu" class="btnripple", id="bubbu">不正解</a>
+        </div>
+
     </body>
 </html>
