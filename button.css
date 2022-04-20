@@ -7,7 +7,7 @@
         /*ボタンの形状*/
         text-decoration: none;
     display:inline-block;
-    background: #333;
+    background: rgb(64, 255, 245);
     color: #fff;
     padding: 10px 20px;
     border-radius: 25px;
