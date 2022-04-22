@@ -7,6 +7,7 @@ window.addEventListener('load', function(){
     const play_btn5 = document.querySelector('#answer');
     const play_btn6 = document.querySelector('#pinpon');
     const play_btn7 = document.querySelector('#bubbu');
+    const play_btn8 = document.querySelector('#netorare');
 
     var audio1 = new Audio("sound/hosiinya.wav");
     var audio2 = new Audio("sound/koukun.wav");
@@ -15,6 +16,7 @@ window.addEventListener('load', function(){
     var audio5 = new Audio("sound/Answer.mp3");
     var audio6 = new Audio("sound/pinpon.wav");
     var audio7 = new Audio("sound/bubbu.wav");
+    var audio8 = new Audio("sound/netorare.wav");
 
     //play event
     play_btn1.addEventListener( 'click', function() {
@@ -43,6 +45,10 @@ window.addEventListener('load', function(){
     }, false );
     play_btn7.addEventListener( 'click', function() {
         var audio7 = new Audio("sound/bubbu.wav");
+        audio7.play();
+    }, false );
+    play_btn8.addEventListener( 'click', function() {
+        var audio7 = new Audio("sound/netorare.wav");
         audio7.play();
     }, false );
 })
